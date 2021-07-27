@@ -73,7 +73,7 @@ namespace SeniorProjectMAS
             }
             else
             {
-                Console.WriteLine("\nError. Static electricity sensor " + Convert.ToString(id) + "is not active.");
+                Console.WriteLine("\nError. Static electricity sensor " + Convert.ToString(id) + " is not active.");
                 Console.WriteLine();
                 sensorActivated = false;
                 return false;
